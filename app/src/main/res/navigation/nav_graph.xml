@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainScreen">
+
+    <fragment
+        android:id="@+id/mainScreen"
+        android:name="uz.smartmuslim.fleethefield.ui.screen.MainScreen"
+        android:label="main_screen"
+        tools:layout="@layout/main_screen" >
+        <action
+            android:id="@+id/action_mainScreen_to_trustGameScreen"
+            app:destination="@id/trustGameScreen"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popUpTo="@id/mainScreen" />
+        <action
+            android:id="@+id/action_mainScreen_to_bonusScreen"
+            app:destination="@id/bonusScreen"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"
+            app:popUpTo="@id/mainScreen" />
+        <action
+            android:id="@+id/action_mainScreen_to_levelScreen"
+            app:destination="@id/levelScreen"
+            app:enterAnim="@anim/nav_default_pop_enter_anim"
+            app:exitAnim="@anim/nav_default_pop_exit_anim"
+            app:popUpTo="@id/mainScreen" />
+        <action
+            android:id="@+id/action_mainScreen_to_settingsScreen"
+            app:destination="@id/settingsScreen"
+            app:enterAnim="@anim/nav_default_pop_enter_anim"
+            app:exitAnim="@anim/nav_default_pop_exit_anim"
+            app:popUpTo="@id/mainScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/bonusScreen"
+        android:name="uz.smartmuslim.fleethefield.ui.screen.BonusScreen"
+        android:label="bonus_screen"
+        tools:layout="@layout/bonus_screen" >
+        <action
+            android:id="@+id/action_bonusScreen_to_levelScreen"
+            app:destination="@id/levelScreen"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@android:anim/slide_in_left"
+            app:popUpTo="@id/mainScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/levelScreen"
+        android:name="uz.smartmuslim.fleethefield.ui.screen.LevelScreen"
+        android:label="level_screen"
+        tools:layout="@layout/level_screen" >
+        <action
+            android:id="@+id/action_levelScreen_to_mainScreen"
+            app:destination="@id/mainScreen"
+            app:popUpTo="@id/mainScreen"
+            app:popUpToInclusive="false" />
+        <action
+            android:id="@+id/action_levelScreen_to_trustGameScreen"
+            app:destination="@id/trustGameScreen"
+            app:enterAnim="@anim/nav_default_pop_enter_anim"
+            app:exitAnim="@anim/nav_default_pop_exit_anim"
+            app:popUpTo="@id/mainScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsScreen"
+        android:name="uz.smartmuslim.fleethefield.ui.screen.SettingsScreen"
+        android:label="settings_screen"
+        tools:layout="@layout/settings_screen" />
+    <fragment
+        android:id="@+id/trustGameScreen"
+        android:name="uz.smartmuslim.fleethefield.ui.screen.game.TrustGameScreen"
+        android:label="trust_game_screen"
+        tools:layout="@layout/trust_game_screen" >
+        <action
+            android:id="@+id/action_trustGameScreen_to_mainScreen"
+            app:destination="@id/mainScreen"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popUpTo="@id/mainScreen" />
+        <action
+            android:id="@+id/action_trustGameScreen_to_levelScreen"
+            app:destination="@id/levelScreen"
+            app:enterAnim="@anim/nav_default_pop_enter_anim"
+            app:exitAnim="@anim/nav_default_pop_exit_anim"
+            app:popUpTo="@id/mainScreen"
+            app:popUpToInclusive="false" />
+        <action
+            android:id="@+id/action_trustGameScreen_self"
+            app:destination="@id/trustGameScreen"
+            app:popUpTo="@id/mainScreen"
+            app:popUpToInclusive="false" />
+    </fragment>
+</navigation>

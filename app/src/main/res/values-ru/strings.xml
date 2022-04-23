@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="levels">УРОВНИ</string>
+    <string name="you_nrecieved">ВЫ \nПОЛУЧИЛИ!</string>
+    <string name="you_are_ncatched">ВЫ ПОЙМАНЫ!</string>
+    <string name="reply">ПЕРЕИГРАТЬ</string>
+    <string name="main_menu">ГЛВНОЕ МЕНЮ</string>
+    <string name="being_planned">В РАЗРАБОТКЕ</string>
+    <string name="get_bonus">БОНУС</string>
+    <string name="start">СТАРТ</string>
+    <string name="settings">НАСТРОЙКИ</string>
+    <string name="sound">ЗВУКИ</string>
+    <string name="vibration">ВИБРАЦИЯ</string>
+    <string name="language">ЯЗЫК</string>
+    <string name="movie_with_swipes">Двигайся с помощью \nсвайпов</string>
+    <string name="win">ПОБЕДА!</string>
+    <string name="next_level">ПЕРЕЙТИ ДАЛЕЕ</string>
+    <string name="score">СЧЁТ:</string>
+</resources>
