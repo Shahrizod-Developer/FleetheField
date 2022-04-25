@@ -39,7 +39,7 @@
                     android:visibility="gone"
                     android:layout_width="@dimen/_34sdp"
                     android:layout_height="@dimen/_34sdp"
-                    android:src="@drawable/ic_frame" />
+                    android:src="@drawable/bg_no" />
 
             </LinearLayout>
 
@@ -55,7 +55,7 @@
                     android:visibility="gone"
                     android:layout_width="@dimen/_34sdp"
                     android:layout_height="@dimen/_34sdp"
-                    android:src="@drawable/ic_frame" />
+                    android:src="@drawable/bg_no" />
 
             </LinearLayout>
 
@@ -71,7 +71,7 @@
                     android:visibility="gone"
                     android:layout_width="@dimen/_34sdp"
                     android:layout_height="@dimen/_34sdp"
-                    android:src="@drawable/ic_frame" />
+                    android:src="@drawable/bg_no" />
             </LinearLayout>
         </LinearLayout>
 

@@ -17,4 +17,9 @@
     <string name="win">ПОБЕДА!</string>
     <string name="next_level">ПЕРЕЙТИ ДАЛЕЕ</string>
     <string name="score">СЧЁТ:</string>
+    <string name="stone">Камень</string>
+    <string name="no_way">Выхода нет</string>
+    <string name="wall">Стена</string>
+    <string name="you_lost">Вы потеряли бонус!</string>
+    <string name="your_level">Ваш уровень:</string>
 </resources>

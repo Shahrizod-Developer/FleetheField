@@ -7,7 +7,7 @@ android {
     compileSdk 32
 
     defaultConfig {
-        applicationId "uz.smartmuslim.fleethefield"
+        applicationId "com.FleeTheField"
         minSdk 21
         targetSdk 32
         versionCode 1

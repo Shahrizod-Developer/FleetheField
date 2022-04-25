@@ -1,7 +1,5 @@
 <resources>
-    <string name="app_name">Flee the Field</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_name" translatable="false">Flee the Field</string>
     <string name="levels">Levels</string>
     <string name="you_nrecieved">You\nRecieved</string>
     <string name="you_are_ncatched">You Are\nCatched</string>
@@ -18,4 +16,9 @@
     <string name="win">Win</string>
     <string name="next_level">next Level</string>
     <string name="score">Score:</string>
+    <string name="stone">Stone</string>
+    <string name="no_way">There is no way</string>
+    <string name="wall">Wall</string>
+    <string name="you_lost">You lost the bonus !</string>
+    <string name="your_level">Your level :</string>
 </resources>
