@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/mainScreen"
-        android:name="uz.smartmuslim.fleethefield.ui.screen.MainScreen"
+        android:name="com.FleeTheField.fleethefield.ui.screen.MainScreen"
         android:label="main_screen"
         tools:layout="@layout/main_screen" >
         <action
@@ -37,7 +37,7 @@
     </fragment>
     <fragment
         android:id="@+id/bonusScreen"
-        android:name="uz.smartmuslim.fleethefield.ui.screen.BonusScreen"
+        android:name="com.FleeTheField.fleethefield.ui.screen.BonusScreen"
         android:label="bonus_screen"
         tools:layout="@layout/bonus_screen" >
         <action
@@ -49,7 +49,7 @@
     </fragment>
     <fragment
         android:id="@+id/levelScreen"
-        android:name="uz.smartmuslim.fleethefield.ui.screen.LevelScreen"
+        android:name="com.FleeTheField.fleethefield.ui.screen.LevelScreen"
         android:label="level_screen"
         tools:layout="@layout/level_screen" >
         <action
@@ -66,12 +66,12 @@
     </fragment>
     <fragment
         android:id="@+id/settingsScreen"
-        android:name="uz.smartmuslim.fleethefield.ui.screen.SettingsScreen"
+        android:name="com.FleeTheField.fleethefield.ui.screen.SettingsScreen"
         android:label="settings_screen"
         tools:layout="@layout/settings_screen" />
     <fragment
         android:id="@+id/trustGameScreen"
-        android:name="uz.smartmuslim.fleethefield.ui.screen.game.TrustGameScreen"
+        android:name="com.FleeTheField.fleethefield.ui.screen.game.TrustGameScreen"
         android:label="trust_game_screen"
         tools:layout="@layout/trust_game_screen" >
         <action
